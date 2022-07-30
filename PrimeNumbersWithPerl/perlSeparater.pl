@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
+
 open(DATA, "<mySum.txt") or die "Couldn't open file file.txt, $!";
 
 
